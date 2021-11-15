@@ -1,0 +1,17 @@
+{
+  "name": "spreg-satosa-sync",
+  "private": true,
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "cz-conventional-changelog": "3.3.0",
+    "prettier": "2.4.1",
+    "semantic-release": "18.0.0",
+    "semantic-release-pypi": "2.4.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
