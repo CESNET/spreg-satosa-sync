@@ -1,0 +1,42 @@
+### CONNECTION TO PERUN RPC ###
+rpc:
+  perun_url: "https://example.com"
+  perun_user: "example"
+  perun_password: "password"
+
+database:
+  connection_string: "mongodb://admin:test@127.0.0.1:27017/admin"
+  database_name: "admin"
+  collection_name: "test"
+
+### MAPPING OF CLIENT PROPERTIES TO PERUN ATTRIBUTES ###
+attributes:
+  client_id: "urn:perun:facility:attribute-def:def:OIDCClientID"
+  client_secret: "urn:perun:facility:attribute-def:def:OIDCClientSecret"
+  client_name: "urn:perun:facility:attribute-def:def:serviceName"
+  redirect_uris: "urn:perun:facility:attribute-def:def:OIDCRedirectURIs"
+  policy_uri: "urn:perun:facility:attribute-def:def:privacyPolicyURL"
+  contacts:
+    - "urn:perun:facility:attribute-def:def:administratorContact"
+  allowed_scopes: "urn:perun:facility:attribute-def:def:requiredScopes"
+  flow_types: "urn:perun:facility:attribute-def:def:OIDCFlowTypes"
+  code_challenge_type: "urn:perun:facility:attribute-def:def:OIDCCodeChallengeType"
+  post_logout_redirect_uri: "urn:perun:facility:attribute-def:def:OIDCPostLogoutRedirectURI"
+  issue_refresh_tokens: "urn:perun:facility:attribute-def:def:OIDCIssueRefreshTokens"
+  proxy_identifier: "urn:perun:facility:attribute-def:def:proxyIdentifiers"
+  master_proxy_identifier: "urn:perun:facility:attribute-def:def:masterProxyIdentifier"
+  client_uri: "urn:perun:facility:attribute-def:def:informationURL"
+  rp_type: "urn:perun:facility:attribute-def:def:rpType"
+  logo_uri: "urn:perun:facility:attribute-def:def:rpLogoURL"
+  initiate_login_uri: "urn:perun:facility:attribute-def:def:rpLoginURL"
+
+rp_type_attr_value: "satosa"
+proxy_identifier_value: "proxyId"
+encryption_key: "secret"
+delete_not_present_clients: "False"
+
+static_attributes:
+  subject_type: public
+  application_type: web
+  token_endpoint_auth_method: none
+  revoke_refresh_on_issue: True
