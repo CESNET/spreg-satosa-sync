@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.2...v1.1.3) (2021-12-01)
+
+
+### Bug Fixes
+
+* move dependencies to setup.py ([ee709e2](https://github.com/CESNET/spreg-satosa-sync/commit/ee709e24d49e179dab62d31f1066fa85174b810d))
+
 ## [1.1.2](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.1...v1.1.2) (2021-12-01)
 
 
