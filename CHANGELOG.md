@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.0...v1.1.1) (2021-12-01)
+
+
+### Bug Fixes
+
+* move script into a folder ([b84e3d2](https://github.com/CESNET/spreg-satosa-sync/commit/b84e3d2cd42d1e9161fb25d9069b814fe58222e5))
+
 # [1.1.0](https://github.com/CESNET/spreg-satosa-sync/compare/v1.0.0...v1.1.0) (2021-12-01)
 
 
