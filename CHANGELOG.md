@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.3...v1.1.4) (2021-12-01)
+
+
+### Bug Fixes
+
+* **deps:** replace pycryptodome with pycryptodomex ([d6f2bb3](https://github.com/CESNET/spreg-satosa-sync/commit/d6f2bb3fc10a7a7a35ea58d0c0aa7b3a2155f726))
+
 ## [1.1.3](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.2...v1.1.3) (2021-12-01)
 
 
