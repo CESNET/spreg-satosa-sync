@@ -8,9 +8,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         "setuptools",
-        "pycryptodome==3.11.0",
-        "pymongo==3.12.1",
-        "requests==2.26.0",
-        "PyYAML==6.0",
+        "pycryptodomex>=3.11.0,<4",
+        "pymongo>=3.12.1,<4",
+        "requests>=2.26.0,<3",
+        "PyYAML>=6.0,<7",
     ],
 )
