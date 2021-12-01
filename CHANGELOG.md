@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.1...v1.1.2) (2021-12-01)
+
+
+### Bug Fixes
+
+* add __init__.py ([b942ed5](https://github.com/CESNET/spreg-satosa-sync/commit/b942ed5ffa0690b5be10de2067bfda612385173d))
+
 ## [1.1.1](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.0...v1.1.1) (2021-12-01)
 
 
