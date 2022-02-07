@@ -8,8 +8,8 @@ import pymongo
 import requests
 import yaml
 from pymongo.errors import OperationFailure
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import unpad
 
 
 def get_collection(cfg):
