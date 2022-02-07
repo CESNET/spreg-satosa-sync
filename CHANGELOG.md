@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.4...v1.1.5) (2022-02-07)
+
+
+### Bug Fixes
+
+* **deps:** change imports from Crypto to Cryptodome ([3cadead](https://github.com/CESNET/spreg-satosa-sync/commit/3cadead98b12ddae973552a11ae8db2bfb8de8bf))
+
 ## [1.1.4](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.3...v1.1.4) (2021-12-01)
 
 
