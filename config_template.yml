@@ -33,7 +33,7 @@ attributes:
 rp_type_attr_value: "satosa"
 proxy_identifier_value: "proxyId"
 encryption_key: "secret"
-delete_not_present_clients: "False"
+delete_not_present_clients: False
 
 static_attributes:
   subject_type: public
