@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.5...v1.1.6) (2022-03-03)
+
+
+### Bug Fixes
+
+* correct comparison with True ([5716647](https://github.com/CESNET/spreg-satosa-sync/commit/5716647430e95af33561aa47d68618b972e727fd))
+
 ## [1.1.5](https://github.com/CESNET/spreg-satosa-sync/compare/v1.1.4...v1.1.5) (2022-02-07)
 
 
