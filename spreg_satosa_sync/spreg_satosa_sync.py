@@ -105,7 +105,7 @@ def get_issue_refresh_tokens_value(cfg, facility_attrs):
     for attr in facility_attrs:
         attr_perun_name = attr["namespace"] + ":" + attr["baseFriendlyName"]
         if attr_perun_name == cfg["attributes"]["issue_refresh_tokens"]:
-            if attr["value"] == "true":
+            if attr["value"] == True:
                 return True
             return False
 
