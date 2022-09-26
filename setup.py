@@ -9,7 +9,7 @@ setup(
     install_requires=[
         "setuptools",
         "pycryptodomex>=3.11.0,<4",
-        "pymongo>=3.12.1,<4",
+        "pymongo>=4.2,<5",
         "requests>=2.26.0,<3",
         "PyYAML>=6.0,<7",
     ],
