@@ -1,5 +1,7 @@
 # rpc_to_mongo_db.py
 
+**REPOSITORY HAS BEEN MOVED TO: https://gitlab.ics.muni.cz/perun-proxy-aai/python/spreg-satosa-sync**
+
 Script to read clients attributes from perun rpc and write them to mongoDB.
 
 ## Usage
